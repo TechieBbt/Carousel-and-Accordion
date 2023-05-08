@@ -1,0 +1,168 @@
+.container {
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.slide {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(../Assets/background.jpg);
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    margin: 20px;
+    margin-top: 35px;
+}
+
+.heading>h2 {
+    font-family: 'Circular Std Book';
+    font-style: normal;
+    font-weight: 500 Bold;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.heading>p {
+    font-family: 'Circular Std Book';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #979797;
+}
+
+.innerCard {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerCard>p {
+    font-family: 'Circular Std Book';
+    font-size: 14px;
+}
+
+.innerCard>img {
+    margin-top: -95px;
+    padding-right: 10px;
+    margin-left: -15px;
+}
+
+.lowerText {
+    color: rgba(6, 6, 42, 0.75);
+    font-family: 'Circular Std Book';
+    font-size: 20px;
+}
+
+.image {
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+.image>img{
+    width: 40%;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+    .innerCard>p {
+        font-size: 12px;
+    }
+
+    .lowerText {
+        font-size: 12px;
+    }
+
+    .card {
+        margin: auto;
+        padding: 20px;
+        margin: 10px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .innerCard>p {
+        font-size: 12px;
+    }
+
+    .lowerText {
+        font-size: 12px;
+    }
+
+    .card {
+        margin: auto;
+        padding: 20px;
+        margin: 10px;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .innerCard>p {
+        font-size: 12px;
+    }
+
+    .lowerText {
+        font-size: 12px;
+    }
+
+    .card {
+        margin: auto;
+        padding: 20px;
+        margin: 10px;
+        margin-top: 25px;
+    }
+
+    .innerCard>img {
+        margin-top: -55px;
+        padding-right: 10px;
+        margin-left: -5px;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .innerCard>p {
+        font-size: 12px;
+    }
+
+    .lowerText {
+        font-size: 12px;
+    }
+
+    .slide {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .card {
+        margin: auto;
+        padding: 30px;
+        margin: 20px;
+        margin-top: 25px;
+    }
+
+    .innerCard>img {
+        margin-top: -55px;
+        padding-right: 10px;
+        margin-left: -5px;
+        width: 10%;
+    }
+}
